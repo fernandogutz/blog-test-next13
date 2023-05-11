@@ -11,10 +11,8 @@ export default function Error({ error, reset }) {
 
     return (
         <div>
-            <h2>OOPS, la página solicitada no existe.</h2>
-            <Link href={'/'}>Volver al inicio</Link>
-            {/* <h2>Lo siento, ha ocurrido un error... </h2>
-            <button onClick={() => reset()}>Volver a cargar</button> */}
+            <h2>Lo siento, ha ocurrido un error... </h2>
+            <button onClick={() => reset()}>Volver a cargar</button>
         </div>
     );
 }
