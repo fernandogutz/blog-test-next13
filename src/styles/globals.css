@@ -1,0 +1,18 @@
+:root {
+    --bg: #1e1e1e;
+    --bg2: #101010;
+    --color: #ebebeb;
+}
+
+body {
+    background-color: var(--bg);
+    margin: 0;
+    padding: 32px;
+    color: var(--color);
+    font-family: verdana;
+}
+
+a {
+    color: lightblue;
+}
+
