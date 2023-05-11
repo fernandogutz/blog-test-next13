@@ -12,6 +12,7 @@ const PostPage = async ({ params }) => {
 
     return (
         <>
+            {!post.id && <h1>Error 404</h1>}
             <h1>{post.title}</h1>
             <p>{post.body}</p>
         </>

@@ -7,7 +7,7 @@ const HomePage = () => {
       <Link href={'/posts/'}>Ver todos los posts</Link>
       <br></br>
       <br></br>
-      <Link href={'/posts/err123'}>Forzar error 404 en Posts</Link>
+      <Link href={'/posts/ááá'}>Forzar error 404 en Posts</Link>
     </>
   )
 }
