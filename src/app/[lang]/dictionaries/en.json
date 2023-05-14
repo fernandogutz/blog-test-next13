@@ -1,0 +1,11 @@
+{
+    "homepage": {
+      "title": "HomePage",
+      "viewAllPosts": "View All Posts",
+      "error404": "Force 404 Error in Posts"
+    },
+    "products": {
+      "cart": "Add to Cart"
+    }
+  }
+  

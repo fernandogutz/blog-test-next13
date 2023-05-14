@@ -1,0 +1,11 @@
+{
+    "homepage": {
+      "title": "Página de inicio",
+      "viewAllPosts": "Ver todos los posts",
+      "error404": "Forzar error 404 en Posts"
+    },
+    "products": {
+      "cart": "Agregar al carrito"
+    }
+  }
+  
