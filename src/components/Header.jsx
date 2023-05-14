@@ -8,7 +8,7 @@ const links = [
     { label: 'Posts', url: '/posts' },
 ]
 
-const Header = () => {
+const Header = ({ lng }) => {
     return (
         <header className={style.header}>
             <nav>
@@ -16,7 +16,7 @@ const Header = () => {
 
                     {
                         links.map(({ label, url }) => (
-                            <li key={url}><Link href={url}>{label}</Link></li>
+                            <li key={url}><Link href={`/${lng}${url}`}>{label}</Link></li>
                         ))
                     }
 

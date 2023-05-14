@@ -9,17 +9,16 @@ const fetchData = async(id) => {
 
 }
 
-const PostPage = async ({ children, params }) => {
+const PostPage = async ({ children, params}) => {
 
     const post = await fetchData(params.id);
-
 
     return (
         <>
             {!post.id && notFound()}
             <h1>{post.title}</h1>
             <p>{post.body}</p>
-            <Link href={`/posts/${params.id}/comments`}>Ver comentarios</Link>
+            <Link href={`/${params.lng}/posts/${params.id}/comments`}>Ver comentarios</Link> {/* puedo acceder a params.lng aunque sea de un nivel superior */}
             {children}
         </>
     )
